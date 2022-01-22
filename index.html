@@ -5,21 +5,315 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your space with our furniture and interior design">
+    <meta name="keywords" content="furniture, interior design">
+    <meta name="author" content="Gerson Aguedo Yanac | Goraycode" />
     <title>Furniz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="build/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="build/css/app.css">
 
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__heading">
-            Transform your space with our <span class="header__special">Furnitture</span> and interior design
-        </h1>
+    <header class="header" id="home">
+        <div class="header__nav contenedor">
+            <a href="#" class="header__link">
+                <div class="header__logo">
+                    <picture>
+                        <source class="header__img" srcset="build/img/logo.avif" type="image/avif">
+                        <source class="header__img" srcset="build/img/logo.webp" type="image/webp">
+                        <img class="header__img" loading="lazy" src="build/img/logo.png" alt="logo">
+                    </picture>
+                    <p class="header__name">Furniz</p>
+                </div>
+            </a>
+
+            <nav class="nav">
+                <a href="#home" class="nav__link">Home</a>
+                <a href="#services" class="nav__link">Services</a>
+                <a href="#about" class="nav__link">About us</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </nav>
+        </div>
+
+        <div class="header__text contenedor">
+            <div class="header__left">
+                <h1 class="header__title">
+                    Transform your space with our <span class="header__special">furniture</span> and interior design
+                </h1>
+                <a href="#" class="header__button">Explore</a>
+
+                <video class="header__video" src="build/img/video.mp4" controls></video>
+            </div>
+
+            <nav class="social">
+                <a href="#" class="social__media">
+                    <i class="fab fa-facebook-f social__icon"></i>
+                </a>
+                <a href="#" class="social__media">
+                    <i class="fab fa-instagram social__icon"></i>
+                </a>
+                <a href="#" class="social__media">
+                    <i class="fab fa-twitter social__icon"></i>
+                </a>
+            </nav>
+
+        </div>
+
     </header>
+
+    <section class="interior separator" id="services">
+        <div class="interior__grid contenedor">
+
+            <picture>
+                <source class="interior__img" srcset="build/img/img_2.avif" type="image/avif">
+                <source class="interior__img" srcset="build/img/img_2.webp" type="image/webp">
+                <img class="interior__img" loading="lazy" src="build/img/img_2.jpg" alt="imagen">
+            </picture>
+            <picture>
+                <source class="interior__img" srcset="build/img/img_1.avif" type="image/avif">
+                <source class="interior__img" srcset="build/img/img_1.webp" type="image/webp">
+                <img class="interior__img" loading="lazy" src="build/img/img_1.jpg" alt="imagen">
+            </picture>
+
+            <div class="interior__container">
+                <h2 class="interior__heading">home interior</h2>
+                <div class="interior__text">
+                    <p class="interior__words">
+                        When an unknow printer took a gallery of type and scrambled a to make a type specimen book. It
+                        has survived no only cesturies.
+                    </p>
+
+                    <p class="interior__words">
+                        When an unknow printer took a gallery of type and scrambled it to make
+                    </p>
+                    <a href="#" class="interior__button">Explore</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="furniture">
+        <div class="furniture__grid contenedor">
+            <div class="furniture__container">
+                <h2 class="furniture__heading">furniters & interior</h2>
+                <div class="furniture__text">
+                    <p class="furniture__words">
+                        When an unknow printer took a gallery of type and scrambled a to make a type specimen book. It
+                        has survived no only cesturies.
+                    </p>
+
+                    <p class="furniture__words">
+                        When an unknow printer took a gallery of type and scrambled it to make
+                    </p>
+                    <a href="#" class="furniture__button">Explore</a>
+                </div>
+
+            </div>
+            <picture>
+                <source class="furniture__img" srcset="build/img/img_3.avif" type="image/avif">
+                <source class="furniture__img" srcset="build/img/img_3.webp" type="image/webp">
+                <img class="furniture__img" loading="lazy" src="build/img/img_3.jpg" alt="imagen">
+            </picture>
+            <picture>
+                <source class="furniture__img" srcset="build/img/img_4.avif" type="image/avif">
+                <source class="furniture__img" srcset="build/img/img_4.webp" type="image/webp">
+                <img class="furniture__img" loading="lazy" src="build/img/img_4.jpg" alt="imagen">
+            </picture>
+
+        </div>
+    </section>
+
+    <section class="interior interior--office">
+        <div class="interior__grid contenedor">
+            <picture>
+                <source class="interior__img" srcset="build/img/img_5.avif" type="image/avif">
+                <source class="interior__img" srcset="build/img/img_5.webp" type="image/webp">
+                <img class="interior__img" loading="lazy" src="build/img/img_5.jpg" alt="imagen">
+            </picture>
+            <picture>
+                <source class="interior__img" srcset="build/img/img_6.avif" type="image/avif">
+                <source class="interior__img" srcset="build/img/img_6.webp" type="image/webp">
+                <img class="interior__img" loading="lazy" src="build/img/img_6.jpg" alt="imagen">
+            </picture>
+
+            <div class="interior__container">
+                <h2 class="interior__heading">office interior</h2>
+                <div class="interior__text">
+                    <p class="interior__words">
+                        When an unknow printer took a gallery of type and scrambled a to make a type specimen book. It
+                        has survived no only cesturies.
+                    </p>
+
+                    <p class="interior__words">
+                        When an unknow printer took a gallery of type and scrambled it to make
+                    </p>
+                    <a href="#" class="interior__button">Explore</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about__grid contenedor">
+            <div class="about__container">
+                <div class="about__letters">
+                    <h2 class="about__heading">About us</h2>
+                    <div class="about__text">
+                        <p class="about__words">
+                            When an unknow printer took a gallery of type and scrambled a to make a type specimen book.
+                            It
+                            has survived no only cesturies.
+                        </p>
+                        <p class="about__words">
+                            When an unknow printer took a gallery of type and scrambled it to make
+                        </p>
+                        <a href="#" class="about__link">explore</a>
+                    </div>
+                </div>
+
+                <nav class="social">
+                    <a href="#" class="social__media">
+                        <i class="fab fa-facebook-f social__icon"></i>
+                    </a>
+                    <a href="#" class="social__media">
+                        <i class="fab fa-instagram social__icon"></i>
+                    </a>
+                    <a href="#" class="social__media">
+                        <i class="fab fa-twitter social__icon"></i>
+                    </a>
+                </nav>
+
+            </div>
+
+            <picture>
+                <source class="about__img" srcset="build/img/about.avif" type="image/avif">
+                <source class="about__img" srcset="build/img/about.webp" type="image/webp">
+                <img class="about__img" loading="lazy" src="build/img/about.jpg" alt="about us">
+            </picture>
+        </div>
+    </section>
+
+    <section class="contact separator" id="contact">
+        <div class="contact__grid contenedor">
+            <div class="contact__container">
+                <h2 class="contact__heading">Contact</h2>
+                <p class="contact__info">
+                    <i class="fas fa-phone-alt contact__icon"></i> +1 7723237790
+                </p>
+
+                <p class="contact__info">
+                    <i class="fas fa-envelope contact__icon"></i> Contact@furniz.com
+                </p>
+                <p class="contact__info">
+                    <i class="fas fa-map-marker-alt contact__icon"></i> #32, 3rd street, RS Way, Varanasi, Uttar
+                    Pradesh, India 232101
+                </p>
+            </div>
+
+            <img src="build/img/contact.jpg" alt="contact us">
+
+        </div>
+    </section>
+
+    <section class="author separator">
+
+        <div class="author__grid contenedor">
+            <picture>
+                <source class="author__img" srcset="build/img/mrs.avif" type="image/avif">
+                <source class="author__img" srcset="build/img/mrs.webp" type="image/webp">
+                <img class="author__img" loading="lazy" src="build/img/mrs.jpg" alt="mrs">
+            </picture>
+
+            <div class="author__container">
+                <h2 class="author__heading">Genoveva Upadhyay</h2>
+                <div class="author__text">
+                    <p class="author__words">
+                        When an unknow printer took a gallery of type and scrambled a to make a type specimen book.
+                        It
+                        has survived no only cesturies.
+                    </p>
+                    <p class="author__star">
+                        <i class="fas fa-star author__icon"></i>9.1
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer separator">
+        <div class="footer__grid contenedor">
+            <div class="footer__box">
+                <div class="footer__logo">
+                    <picture>
+                        <source class="footer__img" srcset="build/img/logo.avif" type="image/avif">
+                        <source class="footer__img" srcset="build/img/logo.webp" type="image/webp">
+                        <img class="footer__img" loading="lazy" src="build/img/logo.png" alt="logo">
+                    </picture>
+                    <p class="footer__name">Furniz</p>
+                </div>
+
+                <div class="footer__text">
+                    <p class="footer__words">
+                        When an unknow printer took a gallery of type and scrambled a to make a type specimen book.
+                        It
+                        has survived no only cesturies.
+                    </p>
+                    <p class="footer__words">
+                        When an unknow printer took a gallery of type and scrambled it to make
+                    </p>
+                </div>
+
+            </div> <!-- box -->
+
+            <div class="footer__box">
+                <h3 class="footer__heading">Quick links</h3>
+                <nav class="nav nav--v">
+                    <a href="#" class="nav__link">Home</a>
+                    <a href="#" class="nav__link">Services</a>
+                    <a href="#" class="nav__link">About us</a>
+                    <a href="#" class="nav__link">Contact</a>
+                </nav>
+            </div> <!-- box -->
+
+            <div class="footer__box">
+                <h3 class="footer__heading">Useful</h3>
+                <nav class="navigation">
+                    <a href="#" class="navigation__link">Privacy policy</a>
+                    <a href="#" class="navigation__link">Legal</a>
+                    <a href="#" class="navigation__link">FAQ's</a>
+                    <a href="#" class="navigation__link">Blogs</a>
+                </nav>
+            </div> <!-- box -->
+
+            <div class="footer__box">
+                <h3 class="footer__heading footer__heading--none">Follow us</h3>
+                <nav class="social social--h">
+                    <a href="#" class="social__media">
+                        <i class="fab fa-facebook-f social__icon"></i>
+                    </a>
+                    <a href="#" class="social__media">
+                        <i class="fab fa-instagram social__icon"></i>
+                    </a>
+                    <a href="#" class="social__media">
+                        <i class="fab fa-twitter social__icon"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <p class="footer__copyright">Developed by Gerson Aguedo Yanac | Goraycode</p>
+    </footer>
+
+
 </body>
 
 </html>
