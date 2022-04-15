@@ -1,4 +1,4 @@
-<h1>Furniz Store</h1>
+<h1 align="center">Furniz Store</h1>
 <pl>Lading page of store furniture</p>
 <p>Link: https://furniz.netlify.app/</p>
 
